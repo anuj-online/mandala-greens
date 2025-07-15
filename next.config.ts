@@ -19,10 +19,16 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  webpack: (config, {isServer}) => {
+  webpack: (config) => {
+    // Add aliases for components, lib, and hooks
     config.resolve.alias['@/components'] = path.join(
       __dirname,
       'src/components',
+    );
+    config.resolve.alias['@/lib'] = path.join(__dirname, 'src/lib');
+    config.resolve.alias['@/hooks'] = path.join(
+      __dirname,
+      'src/hooks',
     );
 
     // Return the updated config
