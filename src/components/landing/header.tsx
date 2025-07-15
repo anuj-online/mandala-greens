@@ -22,6 +22,9 @@ export default function Header() {
           </Link>
         </nav>
         <div className="ml-auto flex items-center gap-4">
+           <Button variant="outline" asChild>
+            <Link href="#">Login</Link>
+          </Button>
            <Button asChild>
             <Link href="#contact">Contact Us</Link>
           </Button>
