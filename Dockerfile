@@ -18,4 +18,7 @@ COPY --from=build /usr/src/app/.next ./.next
 COPY --from=build /usr/src/app/node_modules ./node_modules
 COPY package*.json ./
 
+# Copy the images from the public folder into the container
+COPY public/images /usr/src/app/public/images
+
 CMD ["npm", "start"]
