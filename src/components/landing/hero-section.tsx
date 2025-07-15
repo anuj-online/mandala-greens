@@ -24,11 +24,10 @@ export default function HeroSection() {
           </div>
           <div className="relative h-64 min-h-[300px] w-full overflow-hidden rounded-xl shadow-2xl lg:h-auto">
              <Image
-                src="https://placehold.co/800x600.png"
+                src="/images/hero.png"
                 alt="Vertical Farming"
                 fill
                 className="object-cover transition-transform duration-500 hover:scale-105"
-                data-ai-hint="vertical farming"
              />
           </div>
         </div>
