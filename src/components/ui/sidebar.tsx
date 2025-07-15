@@ -192,6 +192,28 @@ const Sidebar = React.forwardRef<
       )
     }
 
+ // Conditionally render the trigger button for mobile based on viewport width
+ if (isMobile && collapsible !== "none") {
+      return (
+        <Sheet open={openMobile} onOpenChange={setOpenMobile} {...props}>
+          {/* Add the menu trigger button here */}
+          <Button
+            variant="ghost"
+            size="icon"
+            className="fixed left-2 top-2 z-50 md:hidden" // Position the button on the top left for mobile
+            onClick={() => setOpenMobile(true)}
+          >
+            <PanelLeft />
+            <span className="sr-only">Toggle Menu</span>
+          </Button>
+
+          {/* Sheet content for the mobile menu */}
+
+
+        </Sheet>
+      );
+    }
+
     if (isMobile) {
       return (
         <Sheet open={openMobile} onOpenChange={setOpenMobile} {...props}>

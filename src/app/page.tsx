@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col bg-background text-foreground">
       <Header />
-      <main className="flex-1">
+      <main className="flex-1 px-4 md:px-6">
         <HeroSection />
         <ServicesSection />
         <ProjectsSection />
