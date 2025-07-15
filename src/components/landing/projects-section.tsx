@@ -27,7 +27,7 @@ export default function ProjectsSection() {
                 <CardContent className="p-6">
                   <div className="grid gap-6 md:grid-cols-2">
                     <div className="relative h-64 w-full">
-                      <Image src="https://placehold.co/600x400.png" alt="Polyhouse" fill className="rounded-md object-cover" data-ai-hint="polyhouse farm" />
+                      <Image src="/images/polyhouse.png" alt="Polyhouse" fill className="rounded-md object-cover" data-ai-hint="polyhouse farm" />
                     </div>
                     <div className="flex flex-col justify-center space-y-2">
                       <h3 className="text-2xl font-bold">Custom Polyhouse Structures</h3>
@@ -44,7 +44,7 @@ export default function ProjectsSection() {
                 <CardContent className="p-6">
                   <div className="grid gap-6 md:grid-cols-2">
                      <div className="relative h-64 w-full">
-                      <Image src="https://placehold.co/600x400.png" alt="Handshake" fill className="rounded-md object-cover" data-ai-hint="business handshake" />
+                      <Image src="/images/bell-pepper-farm.png" alt="Handshake" fill className="rounded-md object-cover" data-ai-hint="business handshake" />
                     </div>
                     <div className="flex flex-col justify-center space-y-2">
                       <h3 className="text-2xl font-bold">Partnership & Joint Ventures</h3>
@@ -61,7 +61,7 @@ export default function ProjectsSection() {
                 <CardContent className="p-6">
                   <div className="grid gap-6 md:grid-cols-2">
                      <div className="relative h-64 w-full">
-                      <Image src="https://placehold.co/600x400.png" alt="Soil-less farming" fill className="rounded-md object-cover" data-ai-hint="hydroponics farm" />
+                      <Image src="/images/soil-less.png" alt="Soil-less farming" fill className="rounded-md object-cover" data-ai-hint="hydroponics farm" />
                     </div>
                     <div className="flex flex-col justify-center space-y-2">
                       <h3 className="text-2xl font-bold">Soil-less Project Development</h3>

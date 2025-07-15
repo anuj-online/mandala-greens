@@ -31,7 +31,7 @@ export default function TrainingSection() {
             </ul>
           </div>
           <div className="relative h-80 w-full overflow-hidden rounded-xl shadow-xl">
-            <Image src="https://placehold.co/600x400.png" alt="Farming training" fill className="object-cover transition-transform duration-500 hover:scale-105" data-ai-hint="agricultural training" />
+            <Image src="/images/new-gen.png" alt="Farming training" fill className="object-cover transition-transform duration-500 hover:scale-105" data-ai-hint="agricultural training" />
           </div>
         </div>
       </div>
