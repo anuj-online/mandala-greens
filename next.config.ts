@@ -1,4 +1,5 @@
 import type {NextConfig} from 'next';
+import path from 'path';
 
 const nextConfig: NextConfig = {
   /* config options here */
@@ -17,6 +18,18 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
     ],
+  },
+  webpack: (config, {isServer}) => {
+    config.resolve.alias['@/components'] = path.join(
+      __dirname,
+      'src/components',
+    );
+
+    // Return the updated config
+    if (typeof config.webpack === 'function') {
+      return config.webpack(config, {isServer});
+    }
+    return config;
   },
 };
 
