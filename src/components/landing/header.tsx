@@ -7,7 +7,7 @@ export default function Header() {
       <div className="container mx-auto flex h-16 items-center px-4 md:px-6">
         <Link href="/" className="mr-6 flex items-center space-x-2">
           <Image src="/images/logo.PNG" alt="Mandala Greens Logo" width={28} height={28} className="h-12 w-auto" />
-          <span className="font-bold">Mandala Greens</span>
+          <span className="font-bold text-2xl">Mandala Greens</span>
         </Link>
         <nav className="hidden items-center gap-4 text-sm md:flex lg:gap-6">
           <Link href="#services" className="transition-colors hover:text-primary">
