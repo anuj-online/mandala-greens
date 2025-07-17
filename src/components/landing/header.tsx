@@ -1,4 +1,3 @@
-import { Leaf } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
@@ -19,6 +18,9 @@ export default function Header() {
           </Link>
           <Link href="#training" className="transition-colors hover:text-primary">
             Training
+          </Link>
+          <Link href="#gallery" className="transition-colors hover:text-primary">
+            Gallery
           </Link>
         </nav>
         <div className="ml-auto flex items-center gap-4">

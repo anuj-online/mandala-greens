@@ -3,6 +3,7 @@ import HeroSection from '@/components/landing/hero-section';
 import ServicesSection from '@/components/landing/services-section';
 import ProjectsSection from '@/components/landing/projects-section';
 import TrainingSection from '@/components/landing/training-section';
+import GallerySection from '@/components/landing/gallery-section';
 import ContactSection from '@/components/landing/contact-section';
 import Footer from '@/components/landing/footer';
 
@@ -15,6 +16,7 @@ export default function Home() {
         <ServicesSection />
         <ProjectsSection />
         <TrainingSection />
+        <GallerySection />
         <ContactSection />
       </main>
       <Footer />
