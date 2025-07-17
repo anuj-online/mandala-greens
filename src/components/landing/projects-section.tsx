@@ -11,16 +11,16 @@ export default function ProjectsSection() {
             <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm text-muted-foreground">Our Projects</div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">Innovative Farming Solutions</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Explore our specialized project development services tailored for modern agriculture.
+              Our flexible joint venture and partnership models are designed to foster collaboration and shared success. We work with you to create a business model that aligns with your goals and resources, ensuring a profitable venture for all parties
             </p>
           </div>
         </div>
         <div className="mx-auto w-full max-w-4xl pt-12">
           <Tabs defaultValue="polyhouse" className="w-full">
             <TabsList className="grid w-full grid-cols-3">
-              <TabsTrigger value="polyhouse">Polyhouse Development</TabsTrigger>
-              <TabsTrigger value="jv-models">Joint Ventures</TabsTrigger>
-              <TabsTrigger value="soil-less">Soil-less Projects</TabsTrigger>
+              <TabsTrigger value="polyhouse">Construction</TabsTrigger>
+              <TabsTrigger value="jv-models">Operation</TabsTrigger>
+              <TabsTrigger value="soil-less">Market</TabsTrigger>
             </TabsList>
             <TabsContent value="polyhouse" className="mt-6">
               <Card>
@@ -33,6 +33,9 @@ export default function ProjectsSection() {
                       <h3 className="text-2xl font-bold">Custom Polyhouse Structures</h3>
                       <p className="text-muted-foreground">
                         We design and build state-of-the-art polyhouse structures that create optimal growing environments, increasing yield and protecting crops from adverse weather. Our solutions are tailored to your specific needs and location.
+                        <li>	Turnkey polyhouse setup</li>
+                        <li>	Customized design for crops</li>
+                        <li>	Subsidy & finance guidance</li>
                       </p>
                     </div>
                   </div>
@@ -49,7 +52,10 @@ export default function ProjectsSection() {
                     <div className="flex flex-col justify-center space-y-2">
                       <h3 className="text-2xl font-bold">Partnership & Joint Ventures</h3>
                       <p className="text-muted-foreground">
-                        Our flexible joint venture and partnership models are designed to foster collaboration and shared success. We work with you to create a business model that aligns with your goals and resources, ensuring a profitable venture for all parties.
+                        We manage the entire farming process—right from sowing to harvesting, ensuring scientific practices, fertigation schedules, and crop monitoring.
+                        <li>Dutch Rose, Gerbera, Bell Pepper & more</li>
+                        	<li>	Farmer-friendly profit sharing</li>
+                        	<li>Long-term income assurance</li>
                       </p>
                     </div>
                   </div>
@@ -64,9 +70,9 @@ export default function ProjectsSection() {
                       <Image src="/images/soil-less.png" alt="Soil-less farming" fill className="rounded-md object-cover" data-ai-hint="hydroponics farm" />
                     </div>
                     <div className="flex flex-col justify-center space-y-2">
-                      <h3 className="text-2xl font-bold">Soil-less Project Development</h3>
+                      <h3 className="text-2xl font-bold">Market Access</h3>
                       <p className="text-muted-foreground">
-                        We specialize in hydroponics, aeroponics, and aquaponics systems. These soil-less methods conserve water, eliminate soil-borne diseases, and allow for high-density vertical farming, maximizing your production in any space.
+                        We help farmers secure the best market prices by selling directly through B2B and B2C channels, eliminating middlemen, while also supporting their transition from low-income crops to high-value exotics and floriculture.
                       </p>
                     </div>
                   </div>

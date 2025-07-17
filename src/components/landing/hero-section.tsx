@@ -11,16 +11,9 @@ export default function HeroSection() {
               Cultivating the Future of Farming
             </h1>
             <p className="max-w-[600px] text-muted-foreground md:text-xl">
-              Mandala Greens offers A-Z business assistance, from polyhouse development to produce sales, powered by AI and sustainable practices.
+              Mandala Greens is transforming Indian agriculture through technology, smart infrastructure, and a transparent partnership model. We help farmers shift from low-income crops to high-valued exotics & floriculture using controlled-environment polyhouse farming. Our proven COM Model – Construct, Operate, Market – ensures farmers earn more with less risk.
             </p>
-            <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Button size="lg">
-                Get Started
-              </Button>
-              <Button size="lg" variant="secondary">
-                Learn More
-              </Button>
-            </div>
+
           </div>
           <div className="relative h-64 min-h-[300px] w-full overflow-hidden rounded-xl shadow-2xl lg:h-auto">
              <Image

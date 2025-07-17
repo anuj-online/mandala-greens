@@ -6,10 +6,10 @@ const services = [
   { icon: LifeBuoy, title: '24/7 Agronomic Consultation', description: 'Round-the-clock assistance and expert advice.' },
   { icon: GraduationCap, title: 'Hands-on Training', description: 'Practical, on-site training for modern farming techniques.' },
   { icon: Users, title: 'Spot Employment Generation', description: 'Creating job opportunities within the community.' },
-  { icon: Cpu, title: 'AI Controlled Automated Farms', description: 'Leveraging AI for precision farming and automation.' },
+  { icon: Cpu, title: 'AI Integration', description: 'Leveraging AI for precision farming, sales and growth.' },
   { icon: Building, title: 'Polyhouse Structure Development', description: 'Expert design and construction of polyhouses.' },
   { icon: Handshake, title: 'Joint Venture/Partnership Models', description: 'Flexible partnership opportunities for growth.' },
-  { icon: Sprout, title: 'Vertical & Soil-less Farming', description: 'Indoor/outdoor vertical farms and soil-less projects.' },
+  { icon: Sprout, title: 'Soil & Soil-less Farming', description: 'Indoor/outdoor farms and soil-less projects.' },
   { icon: BookOpen, title: 'Offline Technical Training', description: 'In-depth, classroom-based technical farming education.' },
 ];
 
