@@ -3,12 +3,12 @@ import { Card, CardContent } from '@/components/ui/card';
 
 export default function GallerySection() {
   const images = [
-    { src: 'https://placehold.co/600x400.png', alt: 'Gallery image 1', hint: 'farm landscape' },
-    { src: 'https://placehold.co/600x400.png', alt: 'Gallery image 2', hint: 'greenhouse interior' },
-    { src: 'https://placehold.co/600x400.png', alt: 'Gallery image 3', hint: 'vegetable harvest' },
-    { src: 'https://placehold.co/600x400.png', alt: 'Gallery image 4', hint: 'modern agriculture' },
-    { src: 'https://placehold.co/600x400.png', alt: 'Gallery image 5', hint: 'dutch roses' },
-    { src: 'https://placehold.co/600x400.png', alt: 'Gallery image 6', hint: 'farm workers' },
+    { src: '/images/gal-1.png', alt: 'Gallery image 1', hint: 'farm landscape' },
+    { src: '/images/gal-2.png', alt: 'Gallery image 2', hint: 'greenhouse interior' },
+    { src: '/images/gal-3.png', alt: 'Gallery image 3', hint: 'vegetable harvest' },
+    { src: '/images/gal-4.png', alt: 'Gallery image 4', hint: 'modern agriculture' },
+    { src: '/images/gal-5.png', alt: 'Gallery image 5', hint: 'dutch roses' },
+    { src: '/images/gal-6.png', alt: 'Gallery image 6', hint: 'farm workers' },
   ];
 
   return (

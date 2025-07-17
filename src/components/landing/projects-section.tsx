@@ -33,10 +33,12 @@ export default function ProjectsSection() {
                       <h3 className="text-2xl font-bold">Custom Polyhouse Structures</h3>
                       <p className="text-muted-foreground">
                         We design and build state-of-the-art polyhouse structures that create optimal growing environments, increasing yield and protecting crops from adverse weather. Our solutions are tailored to your specific needs and location.
-                        <li>	Turnkey polyhouse setup</li>
-                        <li>	Customized design for crops</li>
-                        <li>	Subsidy & finance guidance</li>
                       </p>
+                      <div className="text-muted-foreground">
+                                              <li>	Turnkey polyhouse setup</li>
+                                              <li>	Customized design for crops</li>
+                                              <li>	Subsidy & finance guidance</li>
+                                              </div>
                     </div>
                   </div>
                 </CardContent>
@@ -51,12 +53,14 @@ export default function ProjectsSection() {
                     </div>
                     <div className="flex flex-col justify-center space-y-2">
                       <h3 className="text-2xl font-bold">Partnership & Joint Ventures</h3>
-                      <p className="text-muted-foreground">
+                      <p >
                         We manage the entire farming process—right from sowing to harvesting, ensuring scientific practices, fertigation schedules, and crop monitoring.
-                        <li>Dutch Rose, Gerbera, Bell Pepper & more</li>
-                        	<li>	Farmer-friendly profit sharing</li>
-                        	<li>Long-term income assurance</li>
                       </p>
+                      <div className="text-muted-foreground">
+                                              <li>Dutch Rose, Gerbera, Bell Pepper & more</li>
+                                              	<li>	Farmer-friendly profit sharing</li>
+                                              	<li>Long-term income assurance</li>
+                                              	</div>
                     </div>
                   </div>
                 </CardContent>
