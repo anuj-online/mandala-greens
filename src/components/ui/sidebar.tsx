@@ -193,7 +193,7 @@ const Sidebar = React.forwardRef<
     }
 
  // Conditionally render the trigger button for mobile based on viewport width
- if (isMobile && collapsible !== "none") {
+ if (isMobile) {
       return (
         <Sheet open={openMobile} onOpenChange={setOpenMobile} {...props}>
           {/* Add the menu trigger button here */}
