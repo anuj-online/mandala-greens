@@ -1,0 +1,50 @@
+Effective Date: {{date}}
+
+Welcome to Mandala Greens, your trusted partner for polyhouse construction, contract farming, and agri-tech-driven farm management. By accessing our website or using our services, you agree to these Terms of Service.
+
+1. Our Services
+
+We provide:
+	•	Polyhouse construction for high-value crops.
+	•	Farm management under our COM model (Construct–Operate–Market).
+	•	Market access & sales support for farmers to maximize profits.
+	•	Digital dashboards for real-time tracking of expenses, sales, and revenue.
+
+2. User Eligibility
+
+By using our services, you confirm that you are:
+	•	At least 18 years old.
+	•	Authorized to engage in farming agreements or investments.
+
+3. Your Responsibilities
+	•	Provide accurate information during registration and onboarding.
+	•	Keep your dashboard login credentials secure.
+	•	Use our services for lawful and intended purposes.
+
+4. Financial Terms
+	•	Profit-sharing under our COM model (70% to farmers, 30% to Mandala Greens) is subject to written agreements.
+	•	Earnings shown on dashboards are based on real-time data but may vary due to market fluctuations and farming conditions.
+
+5. Limitation of Liability
+
+We are not liable for:
+	•	Losses caused by natural disasters, market price changes, or external factors beyond our control.
+	•	Issues arising from third-party services like logistics or payment gateways.
+
+6. Intellectual Property
+
+All website content (logo, designs, content, and images) belongs to Mandala Greens and cannot be used without prior written consent.
+
+7. Termination of Services
+
+We may suspend or terminate access to our services if these terms are violated.
+
+8. Governing Law
+
+These terms are governed by the laws of India. Any disputes will be resolved in the courts of [City, State].
+
+9. Contact Us
+
+For any questions about our Privacy Policy or Terms of Service, contact us:
+Email: mandalagreens.in@gmail.com
+Phone: +91 9999 200 327
